@@ -1,5 +1,6 @@
 from typing import Optional
 from fastapi import FastAPI
+import os
 
 app = FastAPI()
 
@@ -26,7 +27,8 @@ def dar_alta(nombre: str, telefono: str):
 
 
 @app.delete("/borrar/{nombre}")
-def dar_baja(nombre: str):
+def borrar_contacto(nombre: str):
+    
     f = open("demofile.txt", "w")
     f.write()
     f.close()
