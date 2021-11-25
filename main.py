@@ -37,8 +37,6 @@ def dar_baja(nombre: str):
 
 
 
-    
-
    
 
 
