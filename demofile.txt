@@ -1,2 +1,1 @@
-fernando 699
-paco 988
+{"nombre":"maria","telefono":"89"}
